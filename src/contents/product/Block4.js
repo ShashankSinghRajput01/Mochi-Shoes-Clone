@@ -102,7 +102,7 @@ function Block4() {
         
     </div>
      <div>
-        <button onClick={()=>addCart(dataItem && dataItem.id)} className="border py-2 my-4 px-4  rounded-md border-neutral-400">ADD TO CARD</button>
+        <button onClick={()=>addCart(dataItem && dataItem.id)} className="border py-2 my-4 px-4  rounded-md border-neutral-400">ADD TO CART</button>
         <button onClick={()=>router.push("/checkout")}  className=" py-2 px-24 rounded-md mx-4 bg-teal-500 text-white ">BUY NOW</button>
      </div>
      <div>
